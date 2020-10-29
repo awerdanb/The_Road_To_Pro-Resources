@@ -20,7 +20,7 @@ SELECT *
 FROM sales.orders o
 JOIN sales.order_items i
 ON o.order_id = i.order_id
-	/* Displaying all the columns from the orders and order items tables */
+	/* Displaying all the columns from the orders and order items table */
 
 SELECT
 		o.*,
