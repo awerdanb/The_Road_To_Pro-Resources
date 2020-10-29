@@ -82,4 +82,4 @@ SELECT
 		order_id,
 		quantity*list_price*(1-discount) AS total_amount_receivable
 FROM sales.order_items
-	/* Calculating the total amount recaivable for each entry */
+	/* Calculating the total amount receivable for each entry */
