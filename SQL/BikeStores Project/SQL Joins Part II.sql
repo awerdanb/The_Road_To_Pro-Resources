@@ -18,7 +18,7 @@ ON p.product_id = st.product_id
 JOIN sales.stores s
 ON  s.store_id = st.store_id
 WHERE p.list_price > 600 AND st.quantity > 20
-	/* Which orders where made on products with a list price higher than USD 600 and with a quantity in stock higher than 20 units?. Display the
+	/* Which orders where made on products with a list price higher than USD 600 and with a quantity in stock higher than 20 units? Display the
 		order ID, product name, list price, store name and stock quantity */
 
 
