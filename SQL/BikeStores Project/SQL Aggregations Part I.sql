@@ -13,7 +13,7 @@ SELECT
 		COUNT(*) AS order_count
 FROM sales.orders
 WHERE order_date BETWEEN '2017-01-01' AND '2017-12-31'
-	/* Orders were placed in 2017? */
+	/* How many orders were placed in 2017? */
 
 SELECT
 		SUM(quantity) AS product_1_stock
