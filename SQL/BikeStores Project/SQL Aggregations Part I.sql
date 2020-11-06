@@ -19,7 +19,7 @@ SELECT
 		SUM(quantity) AS product_1_stock
 FROM production.stocks
 WHERE product_id = 1
-	/* What is the total quantity is stock of Trek 820-2016 bikes (product id = 1) across all stores? */
+	/* What is the total quantity in stock of Trek 820-2016 bikes (product id = 1) across all stores? */
 
 SELECT
 		MAX(list_price) AS max_price,
